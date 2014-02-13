@@ -10,14 +10,16 @@ DEPENDENCIES
   * LS_COLORS https://github.com/trapd00r/LS_COLORS
 * bash
 * rvm
-  * effuse https://github.com/programble/effuse
+* effuse https://github.com/programble/effuse
 * pyenv https://github.com/rabbidrabbit/pyenv
 * jack
 * alsa
 * io
-* emacs
+* emacs https://github.com/secondplanet/.emacs.d
   * el-get https://github.com/dimitri/el-get
 * vim
 * git
 * surf http://surf.suckless.org/
 * tmux
+* wmii https://github.com/secondplanet/wmiirc
+  * rumai https://github.com/sunaku/rumai
