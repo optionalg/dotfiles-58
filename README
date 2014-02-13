@@ -5,15 +5,19 @@ DEPENDENCIES
 
 * x
 * zsh
-  * zsh-syntax-highlighting
+  * oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
+  * zsh-syntax-highlighting https://github.com/zsh-users/zsh-syntax-highlighting
+  * LS_COLORS https://github.com/trapd00r/LS_COLORS
 * bash
 * rvm
-  * effuse
+  * effuse https://github.com/programble/effuse
+* pyenv https://github.com/rabbidrabbit/pyenv
 * jack
 * alsa
 * io
 * emacs
+  * el-get https://github.com/dimitri/el-get
 * vim
 * git
-* surf
+* surf http://surf.suckless.org/
 * tmux
