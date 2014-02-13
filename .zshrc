@@ -52,8 +52,8 @@ alias -s flac=mplayer
 alias -s wav=mplayer
 
 eval $( dircolors -b $HOME/.dircolors )
-source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/zsh-syntax-highlighting-filetypes/zsh-syntax-highlighting-filetypes.zsh
+source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh-syntax-highlighting-filetypes/zsh-syntax-highlighting-filetypes.zsh
 
 ZSH_HIGHLIGHT_STYLES[alias]='fg=green'
 ZSH_HIGHLIGHT_STYLES[command]='fg=green'
