@@ -53,7 +53,6 @@ alias -s ogg=mplayer
 alias -s flac=mplayer
 alias -s wav=mplayer
 
-eval $( dircolors -b $HOME/.dircolors )
 source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh-syntax-highlighting-filetypes/zsh-syntax-highlighting-filetypes.zsh
 
@@ -85,3 +84,6 @@ ZSH_HIGHLIGHT_PATTERNS+=('rvm get head' 'fg=green,bold')
 ZSH_HIGHLIGHT_PATTERNS+=('brew update' 'fg=green,bold')
 ZSH_HIGHLIGHT_PATTERNS+=('rlwrap *' 'fg=green,bold')
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
+
+eval $( dircolors -b $HOME/.dircolors )
+
