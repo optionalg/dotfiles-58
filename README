@@ -1,1 +1,19 @@
-secondplanet's dotfiles
+secondplanet's dotfiles for Arch Linux
+
+DEPENDENCIES
+------------
+
+* x
+* zsh
+  * zsh-syntax-highlighting
+* bash
+* rvm
+  * effuse
+* jack
+* alsa
+* io
+* emacs
+* vim
+* git
+* surf
+* tmux
