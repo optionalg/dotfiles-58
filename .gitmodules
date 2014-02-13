@@ -4,3 +4,9 @@
 [submodule ".wmii"]
 	path = .wmii
 	url = git://github.com/secondplanet/wmiirc
+[submodule ".zsh-syntax-highlighting-filetypes"]
+	path = .zsh-syntax-highlighting-filetypes
+	url = https://github.com/trapd00r/zsh-syntax-highlighting-filetypes.git
+[submodule ".zsh-syntax-highlighting"]
+	path = .zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git

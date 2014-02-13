@@ -1,3 +1,5 @@
 exclude:
   - README
   - humza.zsh-theme
+  - .gitignore
+  - .gitsubmodules
