@@ -1,5 +1,9 @@
 exclude:
-  - README
-  - humza.zsh-theme
-  - .gitignore
-  - .gitsubmodules
+  - 'README'
+  - 'humza.zsh-theme'
+  - '.gitignore'
+  - '.gitsubmodules'
+  - '.emacs.d'
+  - '.wmii'
+  - '.zsh-syntax-highlighting'
+  - '.zsh-syntax-highlighting-filetypes'
