@@ -1,0 +1,93 @@
+pcm_slave.slavej {
+  pcm "hw:0"
+  channels 2
+  rate 44100
+}
+pcm.plugj {
+  type plug
+  slave slavej
+}
+pcm.dsp {
+    type plug
+    slave.pcm "dmix"
+}
+
+# borrowed from http://dl.dropbox.com/u/18371907/asoundrc
+pcm.dmixed {
+  type asym
+  playback.pcm {
+    type dmix
+    ipc_key_add_uid true
+    ipc_key 5678293
+    ipc_perm 0660
+    ipc_gid audio
+    slave {
+      channels 6
+      pcm {
+  		  format S16_LE
+        rate 48000
+ 			  nonblock true
+        type hw
+ 			  card 0
+        device 0
+        subdevice 0
+		  }
+      period_size 1024
+      buffer_size 16384
+    }
+  }
+	capture.pcm "hw:0"
+}
+pcm.!default {
+  type plug
+  slave.pcm "dmixed"
+}
+pcm.!surround20 {
+  type plug
+  slave.pcm "dmixed"
+}
+pcm.!surround40 {
+  type plug
+  slave.pcm "dmixed"
+}
+pcm.!surround51 {
+  type plug
+	slave.pcm "dmixed"
+}
+pcm.wine {
+  type plug
+  slave.pcm "hw:0"
+}
+pcm.narrower {
+  type ladspa
+  path "/usr/lib/ladspa"
+  plugins {
+    0 {
+      id 2595  # Narrower - Stereo image width reduction (caps)
+      input {
+        controls [ 0 0.25 ]
+      }
+    }
+  }
+  slave.pcm "surround20"
+}
+pcm.headphones {
+  type rate
+  slave {
+    pcm "plug:narrower"
+    rate 48000
+	}
+  converter "samplerate_best"
+  hint {
+    show on
+    description "Headphones"
+  }
+}
+pcm.skype {
+  type plug
+  slave.pcm "hw:0"
+  hint {
+    show on
+    description "Skype"
+  }
+}

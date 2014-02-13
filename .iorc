@@ -1,0 +1,13 @@
+#!/usr/bin/env io
+
+System runCommand("cd /") stdout
+# File list
+ls := method(System runCommand("ls") stdout split)
+# Working dir
+pwd := method(System getEnvironmentVariable("PWD"))
+# Clear screen
+clear := method(System runCommand("clear") stdout)
+
+CLI prompt = ">> "
+CLI outPrompt = "=> "
+CLI continuedLinePrompt = ".. "
