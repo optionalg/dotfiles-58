@@ -37,6 +37,8 @@ alias kdp='killall dhcpcd'
 alias using_alsa='fuser -fv /dev/snd/* /dev/dsp*'
 alias opened_settings='cat /proc/asound/card0/pcm0p/sub0/hw_params'
 alias show_codec='cat /proc/asound/card0/codec#0 | grep Codec'
+alias ls='ls -F'
+alias lsa='ls -aF'
 
 alias -s txt=cat
 alias -s markdown=cat
