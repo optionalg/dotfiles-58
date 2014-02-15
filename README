@@ -23,3 +23,5 @@ DEPENDENCIES
 * tmux
 * wmii https://github.com/secondplanet/wmiirc
   * rumai https://github.com/sunaku/rumai
+* clipit
+* dropbox-cli
