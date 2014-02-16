@@ -40,6 +40,9 @@ alias show_codec='cat /proc/asound/card0/codec#0 | grep Codec'
 alias ls='ls -F'
 alias lsa='ls -aF'
 alias mountu='mount -o gid=users,fmask=113,dmask=002'
+function cimg {
+  curl ihmage.com/$1
+}
 
 alias -s txt=cat
 alias -s markdown=cat
