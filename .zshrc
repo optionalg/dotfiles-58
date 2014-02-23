@@ -37,8 +37,8 @@ alias kdp='killall dhcpcd'
 alias using_alsa='fuser -fv /dev/snd/* /dev/dsp*'
 alias opened_settings='cat /proc/asound/card0/pcm0p/sub0/hw_params'
 alias show_codec='cat /proc/asound/card0/codec#0 | grep Codec'
-alias ls='ls -F'
-alias lsa='ls -aF'
+alias ls='ls -F --color=always'
+alias lsa='ls -aF --color=always'
 alias mountu='mount -o gid=users,fmask=113,dmask=002'
 function cimg {
   curl ihmage.com/$1
