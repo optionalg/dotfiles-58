@@ -43,6 +43,7 @@ alias show_codec='cat /proc/asound/card0/codec#0 | grep Codec'
 alias ls='ls -F --color=always'
 alias lsa='ls -aF --color=always'
 alias mountu='mount -o gid=users,fmask=113,dmask=002'
+alias glog='git log --pretty=oneline'
 function cimg {
   curl ihmage.com/$1
 }
