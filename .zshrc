@@ -14,13 +14,14 @@ for script in $HOME/.zshrc.d/*.sh
     fi
 done
 
-source $ZSH/oh-my-zsh.sh
+nnnsource $ZSH/oh-my-zsh.sh
 PATH=$PATH:$HOME/.rvm/bin
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv init -)"
 export PATH="$HOME/.cabal/bin:$PATH"
+export EDITOR='emacsclient'
 
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
   exec startx
