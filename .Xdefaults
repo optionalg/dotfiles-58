@@ -10,9 +10,9 @@ URxvt.pointerColor:			#303030
 URxvt.colorUL:					#ff4d00
 URxvt.background:				#192135
 URxvt.foreground:				#bababa
-URxvt.urlLauncher:			/usr/bin/surf
+URxvt.urlLauncher:			/usr/bin/dwb -S
 
-URxvt.matcher.button:		3
+URxvt.matcher.button:   3
 
 URxvt.color0:	 #303030
 URxvt.color1:  #9e1000
