@@ -44,6 +44,7 @@ alias ls='ls -F --color=always'
 alias lsa='ls -aF --color=always'
 alias mountu='mount -o gid=users,fmask=113,dmask=002'
 alias glog='git log --pretty=oneline'
+alias torg='tree ~/Org'
 function cimg {
   curl ihmage.com/$1
 }
