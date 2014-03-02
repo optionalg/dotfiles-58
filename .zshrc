@@ -14,7 +14,7 @@ for script in $HOME/.zshrc.d/*.sh
     fi
 done
 
-nnnsource $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 PATH=$PATH:$HOME/.rvm/bin
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
