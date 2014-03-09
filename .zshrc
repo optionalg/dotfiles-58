@@ -3,7 +3,7 @@ ZSH_THEME="humza"
 CASE_SENSITIVE="true"
 DISABLE_AUTO_UPDATE="true"
 HIST_IGNORE_SPACE="true"
-plugins=(tmux git archlinux gem git-extras lein npm rvm)
+plugins=(tmux git archlinux gem git-extras lein npm rvm dircycle)
 
 xmodmap ~/.Xmodmap
 
