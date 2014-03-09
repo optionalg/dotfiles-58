@@ -2,7 +2,6 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="humza"
 CASE_SENSITIVE="true"
 DISABLE_AUTO_UPDATE="true"
-DISABLE_LS_COLORS="true"
 HIST_IGNORE_SPACE="true"
 plugins=(tmux git archlinux gem git-extras lein npm rvm)
 
