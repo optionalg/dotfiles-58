@@ -7,4 +7,5 @@ begin
   Irbtools.add_package :more
   Irbtools.welcome_message = ''
   Irbtools.start
-rescue LoadError end
+rescue LoadError
+end
