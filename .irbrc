@@ -1,13 +1,10 @@
-begin
-	require 'irb/completion'
-rescue LoadError
-	require 'rubygems'
-	require 'irb/completion'
-end
-
+require 'irb/completion'
 require 'pp'
 IRB.conf[:AUTO_INDENT] = true
-require 'irbtools/configure'
-Irbtools.add_package :more
-Irbtools.welcome_message = ''
-Irbtools.start
+
+begin
+  require 'irbtools/configure'
+  Irbtools.add_package :more
+  Irbtools.welcome_message = ''
+  Irbtools.start
+rescue LoadError end
