@@ -1,20 +1,20 @@
-URxvt.perl-ext-common:	default,matcher
-URxvt.scrollBar:				false
+URxvt.perl-ext-common:  default,matcher
+URxvt.scrollBar:        false
 
-URxvt.font:							xft:NotCourierSans:size=12
+URxvt.font: xft:NotCourierSans:size=12:antialias=false
 
-URxvt.cursorColor:			#ff4d00
-URxvt.cursorUnderline:	true
-URxvt.pointerColor:			#303030
+URxvt.cursorColor:      #ff4d00
+URxvt.cursorUnderline:  true
+URxvt.pointerColor:     #303030
 
-URxvt.colorUL:					#ff4d00
-URxvt.background:				#192135
-URxvt.foreground:				#bababa
-URxvt.urlLauncher:			/usr/bin/dwb -S
+URxvt.colorUL:          #ff4d00
+URxvt.background:       #192135
+URxvt.foreground:       #bababa
+URxvt.urlLauncher:      /usr/bin/dwb -S
 
 URxvt.matcher.button:   3
 
-URxvt.color0:	 #303030
+URxvt.color0:  #303030
 URxvt.color1:  #9e1000
 URxvt.color2:  #0e5e00
 URxvt.color3:  #e8b54f
