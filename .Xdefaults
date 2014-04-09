@@ -1,7 +1,8 @@
 URxvt.perl-ext-common:  default,matcher
 URxvt.scrollBar:        false
 
-URxvt.font: xft:NotCourierSans:size=12:antialias=false
+URxvt*font:             xft:NotCourierSans:size=12, \
+                        xft:TeX Gyre Cursor:size=12
 
 URxvt.cursorColor:      #ff4d00
 URxvt.cursorUnderline:  true
