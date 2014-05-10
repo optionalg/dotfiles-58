@@ -29,7 +29,7 @@ if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
   exec startx
 fi
 
-eval "$(hub alias -s)"
+alias xudo='sudo'
 alias e='emacsclient -t -a emacs'
 alias push='git push'
 alias commit='git commit'
