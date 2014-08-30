@@ -51,6 +51,7 @@ alias mountu='mount -o gid=users,fmask=113,dmask=002'
 alias glog='git log --pretty=oneline'
 alias torg='tree ~/Org'
 alias dbox='dropbox'
+alias s='ls'
 function cimg {
   curl ihmage.com/$1
 }
