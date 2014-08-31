@@ -52,6 +52,10 @@ alias glog='git log --pretty=oneline'
 alias torg='tree ~/Org'
 alias dbox='dropbox'
 alias s='ls'
+alias mikdr='mkdir'
+alias mkdr='mkdir'
+alias midkir='mkdir'
+alias mdkir='mkdir'
 function cimg {
   curl ihmage.com/$1
 }
