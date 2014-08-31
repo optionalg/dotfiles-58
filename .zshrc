@@ -56,6 +56,7 @@ alias mikdr='mkdir'
 alias mkdr='mkdir'
 alias midkir='mkdir'
 alias mdkir='mkdir'
+alias open='xpdf'
 function cimg {
   curl ihmage.com/$1
 }
