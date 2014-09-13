@@ -58,6 +58,8 @@ alias midkir='mkdir'
 alias mdkir='mkdir'
 alias open='xpdf'
 alias aslamixer='alsamixer'
+alias git-co='git checkout'
+
 function cimg {
   curl ihmage.com/$1
 }
