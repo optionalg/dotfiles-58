@@ -1,2 +1,4 @@
 set gui=none
 colorscheme humza
+
+alias settings preferences
