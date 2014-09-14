@@ -80,11 +80,11 @@ alias -s wav=mplayer
 source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh-syntax-highlighting-filetypes/zsh-syntax-highlighting-filetypes.zsh
 
-ZSH_HIGHLIGHT_STYLES[alias]='fg=green'
-ZSH_HIGHLIGHT_STYLES[command]='fg=green'
-ZSH_HIGHLIGHT_STYLES[hashed-command]='fg-green'
-ZSH_HIGHLIGHT_STYLES[precommand]='fg=green'
-ZSH_HIGHLIGHT_STYLES[builtin]='fg=green'
+ZSH_HIGHLIGHT_STYLES[alias]='fg=green,bold'
+ZSH_HIGHLIGHT_STYLES[command]='fg=green,bold'
+ZSH_HIGHLIGHT_STYLES[hashed-command]='fg=green,bold'
+ZSH_HIGHLIGHT_STYLES[precommand]='fg=green,bold'
+ZSH_HIGHLIGHT_STYLES[builtin]='fg=green,bold'
 ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=red'
 ZSH_HIGHLIGHT_STYLES[assign]='fg=yellow'
 ZSH_HIGHLIGHT_STYLES[commandseparator]='fg=cyan'
@@ -104,9 +104,6 @@ ZSH_HIGHLIGHT_STYLES[bracket-level-1]='fg=magenta,bold'
 ZSH_HIGHLIGHT_STYLES[bracket-level-2]='fg=blue,bold'
 ZSH_HIGHLIGHT_STYLES[bracket-level-3]='fg=green,bold'
 ZSH_HIGHLIGHT_STYLES[bracket-level-4]='fg=yellow,bold'
-ZSH_HIGHLIGHT_PATTERNS+=('rvm get head' 'fg=green,bold')
-ZSH_HIGHLIGHT_PATTERNS+=('brew update' 'fg=green,bold')
-ZSH_HIGHLIGHT_PATTERNS+=('rlwrap *' 'fg=green,bold')
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 
 eval $( dircolors -b $HOME/.dircolors )
