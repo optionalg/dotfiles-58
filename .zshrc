@@ -78,7 +78,6 @@ alias -s flac=mplayer
 alias -s wav=mplayer
 
 source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.zsh-syntax-highlighting-filetypes/zsh-syntax-highlighting-filetypes.zsh
 
 ZSH_HIGHLIGHT_STYLES[alias]='fg=green,bold'
 ZSH_HIGHLIGHT_STYLES[command]='fg=green,bold'
@@ -94,16 +93,19 @@ ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=magenta,underline'
 ZSH_HIGHLIGHT_STYLES[back-quoted-argument]='fg=green,bold'
 ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=yellow,bold'
 ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=green'
-ZSH_HIGHLIGHT_STYLES[globbing]='fg=blue'
-ZSH_HIGHLIGHT_STYLES[history]='fg=blue,bold'
+ZSH_HIGHLIGHT_STYLES[globbing]='fg=red,bold'
+ZSH_HIGHLIGHT_STYLES[history]='fg=blue'
 ZSH_HIGHLIGHT_STYLES[function]='fg=green'
-ZSH_HIGHLIGHT_STYLES[cursor]='fg=blue,underline'
+ZSH_HIGHLIGHT_STYLES[cursor]='fg=white,underline'
 ZSH_HIGHLIGHT_STYLES[bracket-error]='fg=red'
 ZSH_HIGHLIGHT_STYLES[matching-bracket]='fg=cyan'
 ZSH_HIGHLIGHT_STYLES[bracket-level-1]='fg=magenta,bold'
 ZSH_HIGHLIGHT_STYLES[bracket-level-2]='fg=blue,bold'
 ZSH_HIGHLIGHT_STYLES[bracket-level-3]='fg=green,bold'
 ZSH_HIGHLIGHT_STYLES[bracket-level-4]='fg=yellow,bold'
+ZSH_HIGHLIGHT_STYLES[path]='fg=yellow,bold'
+ZSH_HIGHLIGHT_STYLES[path_prefix]='fg=yellow,bold'
+ZSH_HIGHLIGHT_STYLES[path_approx]='fg=yellow'
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 
 eval $( dircolors -b $HOME/.dircolors )
