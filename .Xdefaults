@@ -4,8 +4,7 @@ URxvt.scrollBar:        false
 URxvt*font:             xft:NotCourierSans:size=12, \
                         xft:TeX Gyre Cursor:size=12
 
-URxvt.cursorColor:      #ff4d00
-URxvt.cursorUnderline:  true
+URxvt.cursorColor:      #192135
 URxvt.pointerColor:     #303030
 
 URxvt.colorUL:          #ff4d00
