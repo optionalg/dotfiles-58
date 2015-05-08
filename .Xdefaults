@@ -9,8 +9,8 @@ URxvt.cursorUnderline:  true
 URxvt.pointerColor:     #303030
 
 URxvt.colorUL:          #ff4d00
-URxvt.background:       #192135
-URxvt.foreground:       #bababa
+URxvt.background:       #e8b54f
+URxvt.foreground:       #18141a
 URxvt.urlLauncher:      /usr/bin/dwb -S
 
 URxvt.matcher.button:   3
